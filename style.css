@@ -1,0 +1,382 @@
+p{
+    background: linear-gradient(to right, grey , blue);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url(img/1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment:fixed;
+    text-size-adjust: 2.5px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: wavy blueviolet double;
+    color: aliceblue;
+    text-align: justify;
+}
+body{
+    background-image: url(img/2.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment:fixed;
+    }
+#div1{
+    color: aliceblue;
+    align-items: center;
+   /* width: fit-content;
+    align-content: center;
+    padding-left: center;
+    text-align: center;*/
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+}
+div#div2{
+    color: aliceblue;
+    border: black double;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+div#div3{
+    color: rgb(208, 201, 228);
+    border: rgb(236, 168, 168) double;
+    margin-top: 10px;
+    margin-left: 900px;
+    width: 289px;
+    background-color: burlywood;
+}
+div#div4{
+    color: rgb(26, 26, 27);
+    border: rgb(225, 148, 148) double;
+    margin-left: 100px;     
+    margin-bottom: 90px;
+    width: 300px;
+    background-color: aqua;
+}
+h3{
+    color: white;
+    
+}
+h1{
+    color: aliceblue;
+    text-align: center;
+    font-size: 70px;
+}
+img{
+    float: right;
+}
+.class1{
+    background-color: aliceblue;
+    border: lightpink double 5px;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    font-size: 40px;
+    float: left;
+    justify-content: center;
+}
+#id1{
+    width: 500px;
+    height: 250px;
+    font-size: 40px;
+    text-align: center;
+    border: palevioletred double 20px;
+    color: black;
+    background: rgb(230, 171, 199);
+    position: absolute;
+    top: 580%;
+    left: 10%;
+    float: right;
+    justify-content: center;
+    
+}
+#id2{
+   
+    width: 200px;
+    height: 170px;
+    font-size: 40px;
+    text-align: center;
+    border: wheat double 20px;
+    color: blue;
+    background: rgb(188, 238, 191);
+    position: relative;
+    top: 1px;
+    left: 200px;
+    justify-content: center;
+    
+}
+#id3{
+    width: 400px;
+    height: 300px;
+    font-size: 40px;
+    text-align: center;
+    border: lightslategray double 20px;
+    color: black;
+    background: rgb(225, 122, 122);
+    position: sticky;
+    top:100px;
+    left: 90%;
+    bottom: 100%;
+    justify-content: center;
+}
+#id4{
+    width: 200px;
+    height: 300px;
+    font-size: 40px;
+    text-align: center;
+    border: powderblue double 20px;
+    color: black;
+    background: rgb(235, 118, 237);
+    position: relative;
+    top: 50px;
+    left: 50px;
+    justify-content: center;
+}
+#one:link{
+    color: lightblue;
+}
+#one:hover{
+    color: brown;
+}
+#one:active{
+    color: green;
+}
+#b:hover{
+    background-color: grey;
+}
+#b:active{
+    background-color: blanchedalmond;
+}
+ul{
+    font-size: xx-large;
+    color: aliceblue;
+}
+li:nth-child(even){
+    background-color: burlywood;
+}
+li:nth-child(odd){
+    background-color: rgb(98, 220, 191);
+}
+li{
+    width: fit-content;
+}
+div#s{
+    text-shadow: 5px 5px 5px powderblue , 0px 0px 5px red;
+    width: fit-content;
+    color: aliceblue;
+    font-size: 50px;
+    box-shadow: 5px 5px 5px black;
+}
+#s:hover{
+    box-shadow: 5px 5px 5px brown;
+}
+.fa-google{
+    color: blue;
+}
+.fa-youtube{
+    color: red;
+}
+.fa-twitter{
+    color: rgb(87, 191, 223);
+}
+.fa-whatsapp{
+    
+    color: rgb(85, 154, 85)
+}
+#divb1{
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    background: dodgerblue;
+    width: fit-content;
+    text-align: center;
+    border: black double 5px;
+    transform: translate(100px, 70px);
+    transform: rotateX(180deg);
+    transform: rotateY(180deg);
+    transform: rotateZ(180deg);
+    transform: scale(1, 1);
+    transform: skew(20deg, 15deg);
+    transform: matrix();
+
+
+}
+#divb2{
+    font-size: 50px;
+    height: fit-content;
+    margin: 30px;
+    width: 150px;
+    color: rgb(230, 81, 81);
+    background: rgb(169, 239, 191);
+    width: fit-content;
+    text-align: center;
+    border: rgb(163, 166, 232) double 5px;
+    transform: translate(250px, 70px);
+    transform: rotateX(160deg);
+    transform: rotateY(180deg);
+    transform: rotateZ(180deg);
+    transform: scale(1, 1);
+    transform: skew(10deg, 30deg);
+    /* transform: matrix(1, 0 , 0, 1,0, 0); */
+}
+#divb3{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    background: dodgerblue;
+    width: fit-content;
+    text-align: center;
+    border: black double 5px;
+    transform: translate(100px, 70px);
+    transform: rotateX(180deg);
+    transform: rotateY(180deg);
+    transform: rotateZ(180deg);
+    transform: scale(1, 1);
+    transform: skew(20deg, 15deg);
+    transform: matrix(1 0 1 0 1 0 0);
+    animation: 3s ease-in 3s infinite running slide1; 
+    
+}
+#divb4{
+    font-size: 30px;
+    height: fit-content;
+    margin: 30px;
+    width: 150px;
+    color: rgb(0, 0, 0);
+    background: rgb(169, 239, 191);
+    width: fit-content;
+    text-align: center;
+    border: rgb(163, 166, 232) double 5px;
+    transform: translate(70px, 250px);
+    transform: rotateX(140deg);
+    transform: rotateY(185deg);
+    transform: rotateZ(180deg);
+    transform: scale(1, 1);
+    transform: skew(30deg, 10deg);
+    transform: matrix(1, 0 , 1, 1,0, 0); 
+    animation: 3s ease-out 3s infinite running slide; 
+}
+#divb5{
+    font-size: 30px;
+    height: fit-content;
+    margin: 30px;
+    width: 150px;
+    color: rgb(99, 83, 83);
+    background: rgb(5, 52, 20);
+    width: fit-content;
+    text-align: center;
+    border: rgb(163, 166, 232) double 5px;
+    transform: translate(70px, 250px);
+    transform: rotateX(140deg);
+    transform: rotateY(185deg);
+    transform: rotateZ(180deg);
+    transform: scale(1, 1);
+    transform: skew(30deg, 10deg);
+    transform: matrix(1, 0 , 1, 0,0, 0); 
+    animation: 2s ease-in-out 3s infinite step-start mo; 
+}
+#divb6{
+    font-size: 30px;
+    height: fit-content;
+    margin: 30px;
+    width: 150px;
+    color: rgb(0, 0, 0);
+    background: rgb(214, 15, 250);
+    width: fit-content;
+    text-align: center;
+    border: rgb(216, 28, 28) double 5px;
+    transform: translate(70px, 250px);
+    transform: rotateX(140deg);
+    transform: rotateY(185deg);
+    transform: rotateZ(180deg);
+    transform: scale(1, 1);
+    transform: skew(30deg, 10deg);
+    transform: matrix(1, 0 , 1, 1,0, 0); 
+    animation: 3s ease-out 3s infinite running mn; 
+}
+#divb7{
+    font-size: 30px;
+    height: fit-content;
+    margin: 30px;
+    width: 150px;
+    color: rgb(0, 0, 0);
+    background: rgb(23, 130, 1);
+    width: fit-content;
+    text-align: center;
+    border: rgb(208, 13, 65) double 5px;
+    transform: translate(70px, 250px);
+    transform: rotateX(140deg);
+    transform: rotateY(185deg);
+    transform: rotateZ(180deg);
+    transform: scale(1, 1);
+    transform: skew(30deg, 10deg);
+    transform: matrix(1, 0 , 1, 1,0, 0); 
+    animation: 3s ease-out 3s infinite running mo; 
+}
+#divb8{
+    font-size: 30px;
+    height: fit-content;
+    margin: 30px;
+    width: 150px;
+    color: rgb(0, 0, 0);
+    background: rgb(23, 130, 1);
+    width: fit-content;
+    text-align: center;
+    border: rgb(208, 13, 65) double 5px;
+    transform: translate(70px, 250px);
+    transform: rotateX(140deg);
+    transform: rotateY(185deg);
+    transform: rotateZ(180deg);
+    transform: scale(1, 1);
+    transform: skew(30deg, 10deg);
+    transform: matrix(1, 0 , 1, 1,0, 0); 
+    animation: 3s ease-out 3s infinite running op; 
+}
+#divb9{
+    font-size: 30px;
+    height: fit-content;
+    margin: 30px;
+    width: 150px;
+    color: rgb(0, 0, 0);
+    background: rgb(23, 130, 1);
+    width: fit-content;
+    text-align: center;
+    border: rgb(208, 13, 65) double 5px;
+    transform: translate(70px, 250px);
+    transform: rotateX(140deg);
+    transform: rotateY(185deg);
+    transform: rotateZ(180deg);
+    transform: scale(1, 1);
+    transform: skew(30deg, 10deg);
+    transform: matrix(1, 0 , 1, 1,0, 0); 
+    animation: 3s ease-out 3s infinite running colorchange; 
+}
+    @keyframes slide{
+    from{margin-left: 60%;}
+    to{margin-left: 0%;}
+    }
+    @keyframes  slide1{
+        from{margin-right: 20%;}
+        to{margin-left: 70%;}
+    }
+    @keyframes myrotate{
+        100%{transform: rotateX(360deg);}
+    }
+    @keyframes mn{
+        100%{transform: rotateY(190deg);}
+    }
+    @keyframes op{
+        100%{transform: rotateZ(360deg);}
+    }
+    @keyframes mo{
+        100%{opacity: 50%;}
+    }
+    @keyframes colorchange{
+        20%{background-color:powderblue;}
+        40%{background-color: blue;}
+        60%{background-color: aquamarine;}
+        80%{background-color: darkmagenta;}
+    }
+
+
